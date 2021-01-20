@@ -1,0 +1,38 @@
+
+body{
+   
+   
+}
+img{
+    width: 98%;
+    transition: width 2s;
+    
+}
+img:hover{
+    width: 100%;
+    
+    
+}
+.first-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    padding:0.2em;
+    gap: 0.2em;
+    cursor: pointer;
+}
+.first-section > div{
+    flex: 1 1 400px;
+    color: beige;
+    padding:15px;
+    text-align: center;
+    background-color:black;
+    border-radius:3px ;
+}
+.first-section > div > p{
+    font-size:1.2em;
+    cursor: pointer;
+    display: block;
+    padding:6px;
+}

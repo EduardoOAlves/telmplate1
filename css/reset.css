@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,700;1,500;1,800&display=swap');
+
+body, ul, li, p{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 'Alegreya', serif;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
